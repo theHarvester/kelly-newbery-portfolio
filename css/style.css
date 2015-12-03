@@ -33,7 +33,9 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background-image: url(https://i.imgur.com/LxYyGst.jpg);
+  /*background-image: url(https://i.imgur.com/LxYyGst.jpg);*/
+  /*background-image: url("/img/kelly_and_belinda.jpg");*/
+  background-image: url("/img/Story%20bridge%202.jpg");
   background-size:cover;
 }
 
@@ -150,9 +152,6 @@ body {
   }
 }
 
-h2 {
-  color:#9995E8;
-}
 
 hr {
   height: 4px;
@@ -160,6 +159,45 @@ hr {
   background: #9995E8;
   font-size: 0;
   border: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page h2 {
+  color:#9995E8;
+}
+
+.page h3 {
+  color:#9995E8;
+}
+
+.section-b {
+  padding-top:80px;
+  padding-bottom: 80px;
+  /*border-color: ;*/
+  border-top: solid 1px #E8E8E8;
+  border-bottom: solid 1px #E8E8E8;
+  background-color: #F2F2F2;
+}
+
+.section-a {
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+
+.section-c {
+  padding-top:80px;
+  padding-bottom: 80px;
+  /*border-color: ;*/
+  border-top: solid 1px #4A4A4A;
+  border-bottom: solid 1px #4A4A4A;
+  background-color: #333333;
+}
+
+
+.page p {
+  font-size: 19px;
+  color: #2E2E2E;
 }
 
 .row-space-above-sm {
@@ -168,6 +206,20 @@ hr {
 .row-space-above-lg {
   margin-top: 150px;
 }
+
+
+/** Button **/
+.btn-default {
+  border: none;
+  background: #F2F2F2;
+  border-radius: 0px;
+}
+
+.btn-default:hover {
+  border: none;
+  border-radius: 0px;
+}
+
 
 @media (min-width: 768px) {
 
