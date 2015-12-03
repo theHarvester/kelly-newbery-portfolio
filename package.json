@@ -1,0 +1,19 @@
+{
+  "name": "kelly-newbery-portfolio",
+  "version": "1.0.0",
+  "description": "Site for Kelly Newbery Port folio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theHarvester/kelly-newbery-portfolio.git"
+  },
+  "author": "James Harvey",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/theHarvester/kelly-newbery-portfolio/issues"
+  },
+  "homepage": "https://github.com/theHarvester/kelly-newbery-portfolio#readme"
+}
