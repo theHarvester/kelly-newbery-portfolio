@@ -200,6 +200,14 @@ hr {
   color: #2E2E2E;
 }
 
+p.description {
+  font-style: italic;
+}
+
+.row-space-above-xs {
+  margin-top: 25px;
+}
+
 .row-space-above-sm {
   margin-top: 50px;
 }
