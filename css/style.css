@@ -37,6 +37,17 @@ body {
 
 }
 
+.header-img-full {
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+
+    z-index: -15;
+    background-image: url("/img/Story%20bridge%202-min.jpg");
+}
+
 .header-img {
     background-size:cover;
     position: absolute;
@@ -65,7 +76,7 @@ body {
 }
 
 .header-img.loaded {
-    background-image: url("/img/Story%20bridge%202.jpg");
+    background-image: none;
 
     -webkit-filter: blur(0);
     -moz-filter: blur(0);
