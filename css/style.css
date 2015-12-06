@@ -33,10 +33,45 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  /*background-image: url(https://i.imgur.com/LxYyGst.jpg);*/
-  /*background-image: url("/img/kelly_and_belinda.jpg");*/
-  background-image: url("/img/Story%20bridge%202.jpg");
-  background-size:cover;
+
+
+}
+
+.header-img {
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+
+    z-index: -10;
+    background-image: url("/img/Story_bridge_2__1449401702_17917.jpg");
+
+    -webkit-transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
+    transition-property: background-image, -webkit-filter,
+    -moz-filter,
+    -o-filter,
+    -ms-filter,
+    filter;
+    /*-webkit-transition: filter 0.5s ease-in-out;*/
+    /*transition: filter 0.5s ease-in-out;*/
+
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+.header-img.loaded {
+    background-image: url("/img/Story%20bridge%202.jpg");
+
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -198,6 +233,11 @@ hr {
     color: whitesmoke !important;
 }
 
+.small {
+    margin-top: 10px;
+    font-size: 16px !important;
+}
+
 .page p {
   font-size: 19px;
   color: #2E2E2E;
@@ -235,12 +275,12 @@ p a,p a:active, p a:visited,p a:hover {
 .btn-default {
   border: none;
   background: #F2F2F2;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .btn-default:hover {
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 
