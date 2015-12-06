@@ -194,6 +194,9 @@ hr {
   background-color: #333333;
 }
 
+.section-c p {
+    color: whitesmoke !important;
+}
 
 .page p {
   font-size: 19px;
@@ -202,6 +205,18 @@ hr {
 
 p.description {
   font-style: italic;
+}
+
+p a,p a:active, p a:visited,p a:hover {
+    color: #9995E8;
+}
+
+.center-children {
+    text-align: center;
+}
+
+.center-children img {
+    margin: 0 auto;
 }
 
 .row-space-above-xs {
